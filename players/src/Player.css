@@ -1,0 +1,19 @@
+.team {
+  list-style-type: none;
+  width: 100%;
+}
+
+.team__player {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.team__player--photo {
+  width: 90px;
+}
+
+.team__player--info p {
+  margin: 0;
+}
