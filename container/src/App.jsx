@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <h1>⚽ Soccer Dashboard</h1>
+      <h1>⚽ Soccer Dashboard Micro-frontend</h1>
       <div className="dashboard">
         <div className="dashboard__team">
           <Players onPlayerSelected={selectPlayer} />
