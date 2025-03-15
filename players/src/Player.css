@@ -1,13 +1,16 @@
 .team {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
-.team__player {
+.team__player li {
   display: flex;
   align-items: center;
   padding: 10px;
   border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
 }
 
 .team__player--photo {
