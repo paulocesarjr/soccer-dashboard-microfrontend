@@ -19,7 +19,7 @@ function App() {
         <div className="dashboard__player">
           {player && (
             <>
-              <h2>{player?.name}</h2>
+              <h2>{player.name}</h2>
               <img
                 className="dashboard__player--photo"
                 src={player.photo}
